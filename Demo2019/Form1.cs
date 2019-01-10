@@ -26,5 +26,10 @@ namespace Demo2019
         {
             //saveFileDialog1.ShowDialog();
         }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            checkBox1.Checked = true;
+        }
     }
 }
